@@ -1,0 +1,59 @@
+@charset "utf-8";
+
+@import "_variables.scss";
+@import "_mixin.scss";
+
+.skill-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1080px;
+    margin: 32px auto 0;
+
+    @include mq(sm) {
+        flex-direction: column;
+        margin-top: 36px;
+    }
+
+    &__contents {
+        display: flex;
+        flex-direction: column;
+        padding: 8px 16px;
+        font-size: 1.4rem;
+
+        &--image {
+            width: 88px;
+            height: 88px;
+        }
+
+        &--label {
+            color: $main-color;
+            text-decoration: underline;
+
+            @include mq(sm) {
+                text-align: center;
+            }
+        }
+
+        &--description {
+            margin-top: 4px;
+            font-size: 1.2rem;
+            line-height: 1.6;
+
+            @include mq(sm) {
+                font-size: 1.0rem;
+                margin-top: 8px;
+            }
+        }
+
+        &--hasExperienced {
+            margin-top: 4px;
+            padding: 4px 4px;
+            width: 124px;
+            border-radius: 16px;
+            background-color: $accent-color;
+            font-size: 0.9rem;
+            text-align: center;
+        }
+    }
+}

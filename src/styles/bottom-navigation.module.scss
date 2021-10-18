@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+@import "_variables.scss";
+@import "_mixin.scss";
+
+.bottom-navigation {
+    display: none;
+
+    @include mq(md) {
+        display: inline-block;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        padding: 8px 0 4px;
+        border-top: 1px solid $white;
+        background: $base-color;
+        font-size: 1rem;
+        transition: all 500ms ease;
+    }
+
+    &__list {
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+
+        &-item {
+            color: $white;
+            cursor: pointer;
+
+            &--open {
+                color: $main-color;
+            }
+        }
+    }
+}

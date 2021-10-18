@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+@import "_variables.scss";
+@import "_mixin.scss";
+
+.work-item {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    cursor: pointer;
+    transition: all 300ms;
+
+    &__image {
+        width: 100%;
+        border-radius: 4px;
+        box-shadow: 4px 4px 4px 0 $silver;
+    }
+
+    &__summary {
+        width: 100%;
+        margin-top: 16px;
+
+        @include mq(sm) {
+            font-size: 1.0rem;
+        }
+    }
+
+    &:hover {
+        transform: scale(1.09);
+    }
+}

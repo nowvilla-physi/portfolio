@@ -1,0 +1,77 @@
+@charset "utf-8";
+
+#stop-main {
+    animation: gradation-color-main 10s ease-in-out infinite;
+}
+
+#stop-sub {
+    animation: gradation-color-sub 10s ease-in-out infinite;
+}
+
+@keyframes gradation-color-main {
+    0% {
+        stop-color: #DE6641;
+    }
+
+    14% {
+        stop-color: #E8AC51;
+    }
+
+    28% {
+        stop-color: #F2E55C;
+    }
+
+    42% {
+        stop-color: #39A869;
+    }
+
+    56% {
+        stop-color: #4784BF;
+    }
+
+    70% {
+        stop-color: #5D5099;
+    }
+
+    84% {
+        stop-color: #A55B9A;
+    }
+
+    100% {
+        stop-color: #DE6641;
+    }
+}
+
+@keyframes gradation-color-sub {
+    0% {
+        stop-color: #A5D4AD;
+    }
+
+    14% {
+        stop-color: #A3BCE2;
+    }
+
+    28% {
+        stop-color: #A59ACA;
+    }
+
+    42% {
+        stop-color: #CFA7CD;
+    }
+
+    56% {
+        stop-color: #F5B090;
+    }
+
+    70% {
+        stop-color: #FCD7A1;
+    }
+
+    84% {
+        stop-color: #FFF9B1;
+    }
+
+    100% {
+        stop-color: #A5D4AD;
+    }
+}

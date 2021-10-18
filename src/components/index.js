@@ -1,0 +1,9 @@
+export { default as BottomNavigation } from './BottomNavigation';
+export { default as Button } from './Button';
+export { default as Head } from './CustomHead';
+export { default as Footer } from './Footer';
+export { default as HamburgerMenu } from './HamburgerMenu';
+export { default as Header } from './Header';
+export { default as ServiceItem } from './ServiceItem';
+export { default as SkillItem } from './SkillItem';
+export { default as WorkItem } from './WorkItem';

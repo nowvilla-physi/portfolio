@@ -1,0 +1,200 @@
+@charset "utf-8";
+
+@import "_variables.scss";
+@import "_mixin.scss";
+
+.home {
+    display: flex;
+    justify-content: space-between;
+    margin: 96px 0;
+    font-weight: normal;
+
+    @include mq(lg) {
+        flex-direction: column;
+    }
+
+    @include mq(sm) {
+        margin-top: 64px;
+    }
+
+    &__profile {
+        position: relative;
+        min-width: 760px;
+        width: 60%;
+        height: 80%;
+        padding: 24px 2%;
+        border-radius: 32px;
+        background-color: $main-color;
+        color: $base-color;
+        text-align: center;
+
+        @include mq(lg) {
+            min-width: 0;
+            width: 100%;
+        }
+
+        &::before {
+            position: absolute;
+            top: 64%;
+            right: -6%;
+            transform: rotate(-45deg);
+            border-color: $main-color transparent transparent transparent;
+            border-style: solid;
+            border-width: 160px 24px 0 24px;
+            content: '';
+
+            @include mq(lg) {
+                top: 96%;
+                right: 64%;
+                transform: rotate(-30deg);
+                border-width: 144px 24px 0 24px;
+            }
+
+            @include mq(md) {
+                top: 97%;
+                right: 74%;
+            }
+
+            @include mq(sm) {
+                top: 98%;
+                right: 70%;
+                transform: rotate(-20deg);
+                border-width: 80px 20px 0 20px;
+            }
+        }
+
+        &--title {
+            font-size: 3rem;
+
+            @include mq(md) {
+                font-size: 2.8rem;
+            }
+
+            @include mq(sm) {
+                font-size: 1.6rem;
+            }
+        }
+
+        &--name {
+            font-size: 6rem;
+
+            @include mq(lg) {
+                font-size: 5rem;
+            }
+
+            @include mq(md) {
+                margin-top: 8px;
+                font-size: 4rem;
+            }
+
+            @include mq(sm) {
+                font-size: 2.6rem;
+            }
+        }
+
+        &--favorite {
+            margin-bottom: 16px;
+            font-size: 1.2rem;
+
+            @include mq(sm) {
+                font-size: 0.9rem;
+            }
+        }
+
+        &--my-photo {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+        }
+
+        &--description {
+            margin-top: 32px;
+            font-size: 1.5rem;
+
+            @include mq(lg) {
+                margin-bottom: 16px;
+            }
+
+            @include mq(xl) {
+                font-size: 1.3rem;
+            }
+
+            @include mq(sm) {
+                font-size: 1.0rem;
+            }
+        }
+    }
+
+    &__certification {
+        margin-top: 16px;
+
+        &--title {
+            font-size: 1.8rem;
+            text-decoration: underline;
+
+            @include mq(sm) {
+                font-size: 1.4rem;
+            }
+        }
+
+        &--list {
+            margin-top: 16px;
+
+            &-item {
+                margin-bottom: 16px;
+                font-size: 1.2rem;
+
+                @include mq(sm) {
+                    font-size: 1.0rem;
+                }
+
+                &-link {
+                    transition: all 300ms;
+
+                    &:hover {
+                        color: $accent-color;
+                    }
+                }
+            }
+        }
+    }
+
+    &__link {
+        display: flex;
+        justify-content: center;
+        margin-top: 32px;
+
+        &--item {
+            margin: 0 8px;
+
+            &-icon {
+                color: $base-color;
+                font-size: 28px;
+                transition: all 300ms;
+
+                &:hover {
+                    color: $accent-color;
+                }
+            }
+        }
+    }
+
+    &__hero {
+        margin-top: auto;
+        margin-bottom: -88px;
+        min-width: 800px;
+        width: 50%;
+        height: 440px;
+        background-image: url("../../public/images/hero-turtle.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center top;
+
+        @include mq(lg) {
+            min-width: 560px;
+            width: 40%;
+            height: 300px;
+            margin: 16px 0 0 auto;
+        }
+    }
+}

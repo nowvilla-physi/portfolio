@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+@import "_variables.scss";
+@import "_mixin.scss";
+
+.works {
+    position: relative;
+    margin: 64px 0;
+
+    &__title {
+        position: absolute;
+        top: 16px;
+        left: 0;
+        width: 400px;
+        height: 180px;
+        background-image: url("../../public/images/works.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+
+        @include mq(xl) {
+            width: 280px;
+        }
+
+        @include mq(sm) {
+            width: 220px;
+        }
+    }
+
+    &__container {
+        display: grid;
+        gap: 80px;
+        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+        max-width: 1080px;
+        margin: 0 auto;
+        padding: 180px 0 40px;
+
+        @include mq(md) {
+            gap: 64px;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            padding: 180px 4% 40px;
+        }
+
+        @include mq(sm) {
+            gap: 48px;
+            grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+        }
+    }
+}

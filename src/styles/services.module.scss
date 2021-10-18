@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+@import "_variables.scss";
+@import "_mixin.scss";
+
+.services {
+    position: relative;
+    margin: 64px 0;
+
+    &__title {
+        position: absolute;
+        top: 16px;
+        left: 0;
+        width: 400px;
+        height: 180px;
+        background-image: url("../../public/images/services.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+
+        @include mq(lg) {
+            width: 360px;
+        }
+
+        @include mq(md) {
+            width: 320px;
+        }
+
+        @include mq(sm) {
+            width: 280px;
+        }
+    }
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 160px;
+
+        @include mq(md) {
+            flex-direction: column;
+        }
+    }
+}
