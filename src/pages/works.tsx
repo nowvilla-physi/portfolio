@@ -17,6 +17,8 @@ import recipe2Site from '../../public/images/works-recipe-site2.png';
 import storeSite from '../../public/images/works-store-site.png';
 import store2Site from '../../public/images/works-store-site2.png';
 import store3Site from '../../public/images/works-store-site3.png';
+import reactiveFinger from '../../public/images/works-reactive-finger.png';
+import webPalette from '../../public/images/works-web-palette.png';
 
 const Works: React.VFC = () => {
     return (
@@ -26,6 +28,9 @@ const Works: React.VFC = () => {
                 url='https://portfolio-tomoki.vercel.app/works'
             />
             <h2 className={styles.works__title} />
+            <h3 className={styles['works__sub-title']}>
+                {Strings.WORKS_HP_SUB_TITLE}
+            </h3>
             <div className={styles.works__container}>
                 <WorkItem
                     imgUrl={profileSite}
@@ -86,6 +91,22 @@ const Works: React.VFC = () => {
                 <WorkItem
                     imgUrl={fireworkSite}
                     siteSummary={Strings.WORKS_HOSHIKAKE_FIREWORK_SITE}
+                    siteUrl={Strings.WORKS_HOSHIKAKE_FIREWORK_SITE_URL}
+                />
+            </div>
+            <h3 className={styles['works__sub-title']}>
+                {Strings.WORKS_WEB_APP_SUB_TITLE}
+            </h3>
+            <div className={styles.works__container}>
+                <WorkItem
+                    imgUrl={reactiveFinger}
+                    siteSummary={Strings.WORKS_REACTIVE_FINGER}
+                    siteUrl={Strings.WORKS_REACTIVE_FINGER_URL}
+                />
+                <WorkItem
+                    imgUrl={webPalette}
+                    siteSummary={Strings.WORKS_WEB_PALETTE}
+                    siteUrl={Strings.WORKS_WEB_PALETTE_URL}
                 />
             </div>
         </div>

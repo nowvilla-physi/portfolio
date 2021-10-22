@@ -1,16 +1,22 @@
 import React from 'react';
 import Image from 'next/image';
+import Router from 'next/router';
 import styles from '../styles/work-item.module.scss';
 
 type Props = {
     imgUrl: any;
     siteSummary: string;
+    siteUrl?: string;
 };
 
 const WorkItem: React.VFC<Props> = (props) => {
-    const { imgUrl, siteSummary } = props;
+    const { imgUrl, siteSummary, siteUrl } = props;
     const openSite = () => {
-        alert('Coming soon...');
+        if (siteUrl === null || siteUrl === undefined) {
+            alert('Coming soon...');
+        } else {
+            Router.push(siteUrl).then();
+        }
     };
 
     return (

@@ -57,6 +57,7 @@ export const SERVICES_CODING_DESCRIPTION =
     '作成したデザインを正確にコードに落とし込みます。HTML、CSSをはじめ、サイトに動きをつけるためにJavaScriptを使用させていただきます。PCだけでなく、タブレット、スマートフォンに対応したレスポンシブなサイトもご提供させていただきます。';
 
 // works.
+export const WORKS_HP_SUB_TITLE = 'HP制作';
 export const WORKS_PROFILE_SITE = 'プロフィールサイト';
 export const WORKS_PHOTO1_SITE = 'フォトサイト';
 export const WORKS_PHOTO2_SITE = 'フォトサイト';
@@ -72,6 +73,14 @@ export const WORKS_MEDIA_SITE = 'メディアサイト';
 export const WORKS_DENTAL_CLINIC_SITE = '歯科医院サイト';
 export const WORKS_HOSHIKAKE_AQUARIUM_SITE = '星駆水族館サイト';
 export const WORKS_HOSHIKAKE_FIREWORK_SITE = '星駆花火大会サイト';
+export const WORKS_HOSHIKAKE_FIREWORK_SITE_URL =
+    'https://nowvilla-physi.github.io/FireWork/';
+export const WORKS_WEB_APP_SUB_TITLE = 'Webアプリ開発';
+export const WORKS_REACTIVE_FINGER = 'タイピングゲーム';
+export const WORKS_WEB_PALETTE = 'カラーツール';
+export const WORKS_REACTIVE_FINGER_URL = 'https://reactive-finger.web.app/';
+export const WORKS_WEB_PALETTE_URL =
+    'https://nowvilla-physi.github.io/color-tool/';
 
 // skills.
 export const SKILL_FRONTEND_TITLE = 'フロントエンド';

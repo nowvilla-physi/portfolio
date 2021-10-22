@@ -26,18 +26,37 @@
         }
     }
 
+    &__sub-title {
+        padding-top: 100px;
+        font-size: 2.0rem;
+        text-align: center;
+
+        @include mq(xl) {
+            padding-top: 184px;
+        }
+
+        @include mq(sm) {
+            padding-top: 144px;
+            font-size: 1.8rem;
+        }
+
+        &:not(:first-of-type) {
+            padding-top: 48px;
+        }
+    }
+
     &__container {
         display: grid;
         gap: 80px;
         grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
         max-width: 1080px;
         margin: 0 auto;
-        padding: 180px 0 40px;
+        padding: 80px 0 40px;
 
         @include mq(md) {
             gap: 64px;
             grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            padding: 180px 4% 40px;
+            padding: 80px 4% 40px;
         }
 
         @include mq(sm) {
