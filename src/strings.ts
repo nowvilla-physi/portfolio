@@ -94,6 +94,7 @@ export const SKILL_CSS_LABEL = 'CSS';
 export const SKILL_SASS_LABEL = 'Sass';
 export const SKILL_JS_LABEL = 'JavaScript';
 export const SKILL_REACT_LABEL = 'React';
+export const SKILL_NEXT_LABEL = 'Next';
 export const SKILL_FIGMA_LABEL = 'Figma';
 export const SKILL_PYTHON_LABEL = 'Python';
 export const SKILL_JAVA_LABEL = 'Java';
@@ -109,7 +110,9 @@ export const SKILL_SASS_DESCRIPTION =
 export const SKILL_JS_DESCRIPTION =
     'Webアプリ開発のプロジェクトに参画していた際に使用していました。生のJavaScript以外にもjQueryや非同期通信を行えるAjaxなども経験したことがあります。JavaScriptは習熟済みであり、開発可能です。';
 export const SKILL_REACT_DESCRIPTION =
-    'フロントエンドのスキルとして一番興味ある技術です。独学で基礎知識は習得済みです。個人開発でReactを用いたWebアプリを開発していく予定です。 実務経験はありませんが、自分の一番の得意な技術にしたいと考えています。';
+    'フロントエンドのスキルとして一番興味ある技術です。独学で十分習得済みです。個人開発でReactを用いたWebアプリを開発していく予定です。 実務経験はありませんが、自分の一番の得意な技術であり、開発可能です。';
+export const SKILL_NEXT_DESCRIPTION =
+    'Reactのフレームワークであり、独学で基礎知識は習得済みです。ReactにはないSEO対策やページの表示速度がかなり早くなります。実務経験はありませんが、Reactをベースとした技術なので、得意な技術の1つです。';
 export const SKILL_FIGMA_DESCRIPTION =
     '現在、Web制作を独学で学習しています。サイト設計であるワイヤーフレームやデザインラフ、デザインカンプをFigmaで使用しています。 使用感についてはある程度慣れてきたが、まだまだ知らない機能があるので使えこなせるようにしていきます。';
 export const SKILL_PYTHON_DESCRIPTION =

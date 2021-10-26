@@ -8,6 +8,7 @@ import htmlIcon from '../../public/images/skills-html.svg';
 import javaIcon from '../../public/images/skills-java.svg';
 import javaScriptIcon from '../../public/images/skills-javascript.svg';
 import kotlinIcon from '../../public/images/skills-kotlin.svg';
+import nextIcon from '../../public/images/skills-next.svg';
 import pythonIcon from '../../public/images/skills-python.svg';
 import reactIcon from '../../public/images/skills-react.svg';
 import sassIcon from '../../public/images/skills-sass.svg';
@@ -54,6 +55,12 @@ const Skills: React.VFC = () => {
                 hasExperienced={false}
                 imageUrl={reactIcon}
                 label={Strings.SKILL_REACT_LABEL}
+            />
+            <SkillItem
+                description={Strings.SKILL_NEXT_DESCRIPTION}
+                hasExperienced={false}
+                imageUrl={nextIcon}
+                label={Strings.SKILL_NEXT_LABEL}
             />
             <SkillItem
                 description={Strings.SKILL_FIGMA_DESCRIPTION}
