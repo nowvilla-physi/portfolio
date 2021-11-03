@@ -8,6 +8,7 @@ import blogSite from '../../public/images/works-blog-site.png';
 import dentalSite from '../../public/images/works-dental-site.png';
 import fireworkSite from '../../public/images/works-firework-site.png';
 import mediaSite from '../../public/images/works-media-site.png';
+import petShop from '../../public/images/works-pet-shop.png';
 import photoSite from '../../public/images/works-photo-site.png';
 import photo2Site from '../../public/images/works-photo-site2.png';
 import portfolioSite from '../../public/images/works-portfolio-site.png';
@@ -92,6 +93,11 @@ const Works: React.VFC = () => {
                     imgUrl={fireworkSite}
                     siteSummary={Strings.WORKS_HOSHIKAKE_FIREWORK_SITE}
                     siteUrl={Strings.WORKS_HOSHIKAKE_FIREWORK_SITE_URL}
+                />
+                <WorkItem
+                    imgUrl={petShop}
+                    siteSummary={Strings.WORKS_PET_SHOP_SITE}
+                    siteUrl={Strings.WORKS_PET_SHOP_SITE_URL}
                 />
             </div>
             <h3 className={styles['works__sub-title']}>

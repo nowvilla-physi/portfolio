@@ -75,6 +75,9 @@ export const WORKS_HOSHIKAKE_AQUARIUM_SITE = '星駆水族館サイト';
 export const WORKS_HOSHIKAKE_FIREWORK_SITE = '星駆花火大会サイト';
 export const WORKS_HOSHIKAKE_FIREWORK_SITE_URL =
     'https://nowvilla-physi.github.io/FireWork/';
+export const WORKS_PET_SHOP_SITE = '爬虫類・両生類専門のペットショップ';
+export const WORKS_PET_SHOP_SITE_URL =
+    'https://petshop-nature.vercel.app/blogs';
 export const WORKS_WEB_APP_SUB_TITLE = 'Webアプリ開発';
 export const WORKS_REACTIVE_FINGER = 'タイピングゲーム';
 export const WORKS_WEB_PALETTE = 'カラーツール';
