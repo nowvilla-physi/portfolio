@@ -15,8 +15,7 @@ export const COPYRIGHT = "2021 Tomoki's Portfolio";
 export const HOME_PROFILE_TITLE = 'Programmer / Web Designer';
 export const HOME_PROFILE_NAME = 'Tomoki Imamura';
 export const HOME_PROFILE_FAVORITE = '爬虫類・両生類が好きなWeb製作者';
-export const HOME_PROFILE_DESCRIPTION =
-    'エンジニアのための情報共有サービス「Zenn」にて、記事を発信中！';
+export const HOME_PROFILE_DESCRIPTION = '「Zenn」&「Qiita」にて記事を発信中！';
 export const HOME_CERTIFICATION_TITLE = '保有資格';
 export const HOME_CERTIFICATION_FE = '基本情報技術者試験 合格';
 export const HOME_CERTIFICATION_AP = '応用情報技術者試験 合格';
@@ -41,6 +40,7 @@ export const HOME_CERTIFICATION_JAVA_SILVER_URL =
 export const HOME_GITHUB_URL = 'https://github.com/nowvilla-physi';
 export const HOME_TWITTER_URL = 'https://twitter.com/nowvilla_physi';
 export const HOME_ZENN_URL = 'https://zenn.dev/web_tips';
+export const HOME_QIITA_URL = 'https://qiita.com/nowvilla_physi';
 
 // services.
 export const SERVICES_HEARING_TITLE = 'ヒアリング';

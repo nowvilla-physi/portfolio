@@ -1,4 +1,4 @@
-import { faLink } from '@fortawesome/free-solid-svg-icons';
+import { faLink, faSearch } from '@fortawesome/free-solid-svg-icons';
 import { faTwitter, faGithub } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
@@ -160,6 +160,9 @@ const Home: React.VFC = () => {
                     </ul>
                 </div>
 
+                <p className={styles['home__profile--description']}>
+                    {Strings.HOME_PROFILE_DESCRIPTION}
+                </p>
                 <ul className={styles.home__link}>
                     <li className={styles['home__link--item']}>
                         <Link href={Strings.HOME_GITHUB_URL}>
@@ -203,10 +206,21 @@ const Home: React.VFC = () => {
                             </a>
                         </Link>
                     </li>
+                    <li className={styles['home__link--item']}>
+                        <Link href={Strings.HOME_QIITA_URL}>
+                            <a
+                                title='Qiita'
+                                target='_blank'
+                                rel='noopener noreferrer'
+                            >
+                                <FontAwesomeIcon
+                                    className={styles['home__link--item-icon']}
+                                    icon={faSearch}
+                                />
+                            </a>
+                        </Link>
+                    </li>
                 </ul>
-                <p className={styles['home__profile--description']}>
-                    {Strings.HOME_PROFILE_DESCRIPTION}
-                </p>
             </section>
 
             <div className={styles.home__hero} />
