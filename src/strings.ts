@@ -12,7 +12,7 @@ export const CONTACT_URL = '/contact';
 export const COPYRIGHT = "2021 Tomoki's Portfolio";
 
 // home.
-export const HOME_PROFILE_TITLE = 'Programmer / Web Designer';
+export const HOME_PROFILE_TITLE = 'Programmer & Web Designer';
 export const HOME_PROFILE_NAME = 'Tomoki Imamura';
 export const HOME_PROFILE_FAVORITE = '爬虫類・両生類が好きなWeb製作者';
 export const HOME_PROFILE_DESCRIPTION = '「Zenn」&「Qiita」にて記事を発信中！';
