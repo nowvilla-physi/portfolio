@@ -3,7 +3,7 @@ import Image from 'next/image';
 import Router, { useRouter } from 'next/router';
 import { animateScroll as scroll } from 'react-scroll/modules';
 import { Button, HamburgerMenu } from './index';
-import turtleIcon from '../../public/images/turtle.svg';
+import turtleIcon from '../../public/images/turtle.png';
 import pcLogo from '../../public/images/portfolio-logo.svg';
 import styles from '../styles/header.module.scss';
 import * as Strings from '../strings';
