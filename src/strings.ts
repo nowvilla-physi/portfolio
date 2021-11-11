@@ -96,6 +96,7 @@ export const SKILL_HTML_LABEL = 'HTML';
 export const SKILL_CSS_LABEL = 'CSS';
 export const SKILL_SASS_LABEL = 'Sass';
 export const SKILL_JS_LABEL = 'JavaScript';
+export const SKILL_TS_LABEL = 'TypeScript';
 export const SKILL_REACT_LABEL = 'React';
 export const SKILL_NEXT_LABEL = 'Next';
 export const SKILL_FIGMA_LABEL = 'Figma';
@@ -112,6 +113,8 @@ export const SKILL_SASS_DESCRIPTION =
     '現在、Web制作を独学で学習しており、CSSではなくSassを主に使用しています。実務経験はありませんが、開発経験があるCSSと同じくらいの知識があるため、開発可能です。';
 export const SKILL_JS_DESCRIPTION =
     'Webアプリ開発のプロジェクトに参画していた際に使用していました。生のJavaScript以外にもjQueryや非同期通信を行えるAjaxなども経験したことがあります。JavaScriptは習熟済みであり、開発可能です。';
+export const SKILL_TS_DESCRIPTION =
+    'JavaScriptの上方互換言語であるTypeScriptは基本的にWeb制作では使用しませんが、Webアプリ開発の際に使用いたします。TypeScriptは開発経験はありませんがJavaScriptと同様習熟済みであり、開発可能です。';
 export const SKILL_REACT_DESCRIPTION =
     'フロントエンドのスキルとして一番興味ある技術です。独学で十分習得済みです。個人開発でReactを用いたWebアプリを開発していく予定です。 実務経験はありませんが、自分の一番の得意な技術であり、開発可能です。';
 export const SKILL_NEXT_DESCRIPTION =

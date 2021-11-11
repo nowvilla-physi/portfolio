@@ -12,6 +12,7 @@ import nextIcon from '../../public/images/skills-next.svg';
 import pythonIcon from '../../public/images/skills-python.svg';
 import reactIcon from '../../public/images/skills-react.svg';
 import sassIcon from '../../public/images/skills-sass.svg';
+import typeScriptIcon from '../../public/images/skills-typescript.svg';
 import styles from '../styles/skills.module.scss';
 import * as Strings from '../strings';
 
@@ -39,16 +40,22 @@ const Skills: React.VFC = () => {
                 label={Strings.SKILL_CSS_LABEL}
             />
             <SkillItem
+                description={Strings.SKILL_SASS_DESCRIPTION}
+                hasExperienced={false}
+                imageUrl={sassIcon}
+                label={Strings.SKILL_SASS_LABEL}
+            />
+            <SkillItem
                 description={Strings.SKILL_JS_DESCRIPTION}
                 hasExperienced
                 imageUrl={javaScriptIcon}
                 label={Strings.SKILL_JS_LABEL}
             />
             <SkillItem
-                description={Strings.SKILL_SASS_DESCRIPTION}
+                description={Strings.SKILL_TS_DESCRIPTION}
                 hasExperienced={false}
-                imageUrl={sassIcon}
-                label={Strings.SKILL_SASS_LABEL}
+                imageUrl={typeScriptIcon}
+                label={Strings.SKILL_TS_LABEL}
             />
             <SkillItem
                 description={Strings.SKILL_REACT_DESCRIPTION}
