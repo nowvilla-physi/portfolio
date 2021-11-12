@@ -18,6 +18,8 @@ import recipe2Site from '../../public/images/works-recipe-site2.png';
 import storeSite from '../../public/images/works-store-site.png';
 import store2Site from '../../public/images/works-store-site2.png';
 import store3Site from '../../public/images/works-store-site3.png';
+import muSelfNameCard from '../../public/images/works-name-card-myself.png';
+import designerNameCard from '../../public/images/works-name-card-designer.png';
 import reactiveFinger from '../../public/images/works-reactive-finger.png';
 import webPalette from '../../public/images/works-web-palette.png';
 
@@ -98,6 +100,21 @@ const Works: React.VFC = () => {
                     imgUrl={petShop}
                     siteSummary={Strings.WORKS_PET_SHOP_SITE}
                     siteUrl={Strings.WORKS_PET_SHOP_SITE_URL}
+                />
+            </div>
+            <h3 className={styles['works__sub-title']}>
+                {Strings.WORKS_NAME_CARD_SUB_TITLE}
+            </h3>
+            <div className={styles.works__container}>
+                <WorkItem
+                    imgUrl={muSelfNameCard}
+                    siteSummary={Strings.WORKS_NAME_CARD_MYSELF}
+                    siteUrl={Strings.WORKS_NAME_CARD_URL}
+                />
+                <WorkItem
+                    imgUrl={designerNameCard}
+                    siteSummary={Strings.WORKS_NAME_CARD_DESIGNER}
+                    siteUrl={Strings.WORKS_NAME_CARD_URL}
                 />
             </div>
             <h3 className={styles['works__sub-title']}>
