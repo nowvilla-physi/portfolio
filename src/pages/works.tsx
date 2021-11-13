@@ -20,6 +20,7 @@ import store2Site from '../../public/images/works-store-site2.png';
 import store3Site from '../../public/images/works-store-site3.png';
 import muSelfNameCard from '../../public/images/works-name-card-myself.png';
 import designerNameCard from '../../public/images/works-name-card-designer.png';
+import companyNameCard from '../../public/images/works-name-card-company.png';
 import reactiveFinger from '../../public/images/works-reactive-finger.png';
 import webPalette from '../../public/images/works-web-palette.png';
 
@@ -114,6 +115,11 @@ const Works: React.VFC = () => {
                 <WorkItem
                     imgUrl={designerNameCard}
                     siteSummary={Strings.WORKS_NAME_CARD_DESIGNER}
+                    siteUrl={Strings.WORKS_NAME_CARD_URL}
+                />
+                <WorkItem
+                    imgUrl={companyNameCard}
+                    siteSummary={Strings.WORKS_NAME_CARD_COMPANY}
                     siteUrl={Strings.WORKS_NAME_CARD_URL}
                 />
             </div>
