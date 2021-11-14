@@ -82,6 +82,7 @@ export const WORKS_NAME_CARD_SUB_TITLE = '名刺デザイン';
 export const WORKS_NAME_CARD_MYSELF = 'プログラマー & Webデザイナーの名刺';
 export const WORKS_NAME_CARD_DESIGNER = 'デザイナーの名刺';
 export const WORKS_NAME_CARD_COMPANY = '商社の名刺';
+export const WORKS_NAME_CARD_BOOK = '書店店員の名刺';
 export const WORKS_NAME_CARD_URL =
     'https://nowvilla-physi.github.io/name-card/';
 export const WORKS_WEB_APP_SUB_TITLE = 'Webアプリ開発';

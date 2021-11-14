@@ -21,8 +21,10 @@ import store3Site from '../../public/images/works-store-site3.png';
 import muSelfNameCard from '../../public/images/works-name-card-myself.png';
 import designerNameCard from '../../public/images/works-name-card-designer.png';
 import companyNameCard from '../../public/images/works-name-card-company.png';
+import bookNameCard from '../../public/images/works-name-card-book.png';
 import reactiveFinger from '../../public/images/works-reactive-finger.png';
 import webPalette from '../../public/images/works-web-palette.png';
+import { WORKS_NAME_CARD_BOOK } from '../strings';
 
 const Works: React.VFC = () => {
     return (
@@ -120,6 +122,11 @@ const Works: React.VFC = () => {
                 <WorkItem
                     imgUrl={companyNameCard}
                     siteSummary={Strings.WORKS_NAME_CARD_COMPANY}
+                    siteUrl={Strings.WORKS_NAME_CARD_URL}
+                />
+                <WorkItem
+                    imgUrl={bookNameCard}
+                    siteSummary={Strings.WORKS_NAME_CARD_BOOK}
                     siteUrl={Strings.WORKS_NAME_CARD_URL}
                 />
             </div>
