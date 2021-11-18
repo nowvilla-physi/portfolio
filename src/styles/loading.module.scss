@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+@import "_variables.scss";
+@import "_mixin.scss";
+
+.loading {
+    display: block;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    opacity: .8;
+    padding: 50vh 0;
+    transform: translate(-50%, -50%);
+    background-color: $base-color;
+    text-align: center;
+
+    &--hide {
+        display: none;
+    }
+
+    &__message {
+        margin-top: 8px;
+    }
+}
