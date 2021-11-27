@@ -25,14 +25,14 @@ const Header: React.VFC = () => {
         <header className={styles.header}>
             <h1 className={styles.header__logo}>
                 <Image
-                    className={styles.header__logo}
+                    className={styles['header__logo--link']}
                     src={pcLogo}
                     alt='ポートフォリオロゴ'
                     onClick={() => showScreen(Strings.HOME_URL)}
                 />
             </h1>
             <div className={styles.header__icon} onClick={toTopScreen}>
-                <Image src={turtleIcon} alt='ポートフォリオアイコン' />
+                <Image className={styles['header__icon--link']} src={turtleIcon} alt='ポートフォリオアイコン' />
             </div>
             <nav className={styles.header__nav}>
                 <Button

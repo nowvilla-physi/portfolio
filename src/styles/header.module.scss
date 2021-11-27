@@ -23,11 +23,19 @@
 
     &__logo {
         width: 33%;
+
+        &--link {
+            cursor: pointer;
+        }
     }
 
     &__icon {
         width: 48px;
         height: 48px;
+
+        &--link {
+            cursor: pointer;
+        }
 
         @include mq(lg) {
             margin-right: 22%;
