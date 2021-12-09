@@ -32,7 +32,11 @@ const Header: React.VFC = () => {
                 />
             </h1>
             <div className={styles.header__icon} onClick={toTopScreen}>
-                <Image className={styles['header__icon--link']} src={turtleIcon} alt='ポートフォリオアイコン' />
+                <Image
+                    className={styles['header__icon--link']}
+                    src={turtleIcon}
+                    alt='ポートフォリオアイコン'
+                />
             </div>
             <nav className={styles.header__nav}>
                 <Button
