@@ -1,5 +1,6 @@
 import { AppProps } from 'next/app';
 import NextProgress from 'next-progress';
+import '@fortawesome/fontawesome-svg-core/styles.css';
 import '../styles/globals.scss';
 import { BottomNavigation, Header, Footer } from '../components/index';
 

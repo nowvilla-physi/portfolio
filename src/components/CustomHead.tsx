@@ -33,7 +33,24 @@ const CustomHead: React.VFC<Props> = (props) => {
             />
             <meta property='og:site_name' content='Tomokiのポートフォリオ' />
             <meta property='og:locale' content='ja_JP' />
-            <link rel='shortcut icon' href='../../public/favicon.ico' />
+            <link rel='shortcut icon' href='images/favicon.ico' />
+            <link
+                rel='apple-touch-icon'
+                sizes='180x180'
+                href='/favicon/apple.ico'
+            />
+            <link
+                rel='icon'
+                type='image/png'
+                sizes='32x32'
+                href='/images/favicon.ico'
+            />
+            <link
+                rel='icon'
+                type='image/png'
+                sizes='16x16'
+                href='/images/favicon.ico'
+            />
             <title>{title}</title>
         </Head>
     );
