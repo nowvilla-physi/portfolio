@@ -6,7 +6,5 @@ module.exports = withSass({
 
 module.exports = {
     reactStrictMode: true,
-    experimental: {
-        optimizeFonts: true,
-    },
+    optimizeFonts: false,
 };
