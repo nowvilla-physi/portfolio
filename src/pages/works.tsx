@@ -24,6 +24,7 @@ import companyNameCard from '../../public/images/works-name-card-company.png';
 import bookNameCard from '../../public/images/works-name-card-book.png';
 import hairdresserNameCard from '../../public/images/works-name-card-hairdresser.png';
 import architectNameCard from '../../public/images/works-name-card-architect.png';
+import dogTrainerNameCard from '../../public/images/works-name-card-dogtrainer.png';
 import reactiveFinger from '../../public/images/works-reactive-finger.png';
 import webPalette from '../../public/images/works-web-palette.png';
 
@@ -138,6 +139,11 @@ const Works: React.VFC = () => {
                 <WorkItem
                     imgUrl={architectNameCard}
                     siteSummary={Strings.WORKS_NAME_CARD_ARCHITECT}
+                    siteUrl={Strings.WORKS_NAME_CARD_URL}
+                />
+                <WorkItem
+                    imgUrl={dogTrainerNameCard}
+                    siteSummary={Strings.WORKS_NAME_CARD_DOG_TRAINER}
                     siteUrl={Strings.WORKS_NAME_CARD_URL}
                 />
             </div>
