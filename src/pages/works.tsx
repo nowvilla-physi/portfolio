@@ -25,6 +25,8 @@ import bookNameCard from '../../public/images/works-name-card-book.png';
 import hairdresserNameCard from '../../public/images/works-name-card-hairdresser.png';
 import architectNameCard from '../../public/images/works-name-card-architect.png';
 import dogTrainerNameCard from '../../public/images/works-name-card-dogtrainer.png';
+import chemicalNameCard from '../../public/images/works-name-card-chemical.png';
+import semiconductorNameCard from '../../public/images/works-name-card-semiconductor.png';
 import reactiveFinger from '../../public/images/works-reactive-finger.png';
 import webPalette from '../../public/images/works-web-palette.png';
 
@@ -144,6 +146,16 @@ const Works: React.VFC = () => {
                 <WorkItem
                     imgUrl={dogTrainerNameCard}
                     siteSummary={Strings.WORKS_NAME_CARD_DOG_TRAINER}
+                    siteUrl={Strings.WORKS_NAME_CARD_URL}
+                />
+                <WorkItem
+                    imgUrl={chemicalNameCard}
+                    siteSummary={Strings.WORKS_NAME_CARD_CHEMICAL}
+                    siteUrl={Strings.WORKS_NAME_CARD_URL}
+                />
+                <WorkItem
+                    imgUrl={semiconductorNameCard}
+                    siteSummary={Strings.WORKS_NAME_CARD_SEMICONDUCTOR}
                     siteUrl={Strings.WORKS_NAME_CARD_URL}
                 />
             </div>
