@@ -50,8 +50,8 @@
     &__icon {
         padding: 32px;
         border-radius: 24px;
-        background-color: $main-color;
-        color: $base-color;
+        background-color: $mainColor;
+        color: $baseColor;
         font-size: 124px;
 
         @include mq(sm) {

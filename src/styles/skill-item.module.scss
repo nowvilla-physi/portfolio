@@ -27,7 +27,7 @@
         }
 
         &--label {
-            color: $main-color;
+            color: $mainColor;
             text-decoration: underline;
 
             @include mq(sm) {
@@ -51,7 +51,7 @@
             padding: 4px 4px;
             width: 124px;
             border-radius: 16px;
-            background-color: $accent-color;
+            background-color: $accentColor;
             font-size: 0.9rem;
             text-align: center;
         }
