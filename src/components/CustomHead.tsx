@@ -14,7 +14,7 @@ const CustomHead: React.VFC<Props> = (props) => {
                 name='description'
                 content='Tomokiのポートフォリオです。React × Web制作を専門としています。お仕事のご連絡お待ちしております。'
             />
-            <meta name='theme-color' content='#61dafb' />
+            <meta name='theme-color' content='#282c34' />
             <meta charSet='utf-8' />
             <meta
                 name='viewport'
@@ -27,30 +27,9 @@ const CustomHead: React.VFC<Props> = (props) => {
             />
             <meta property='og:type' content='website' />
             <meta property='og:url' content={url} />
-            <meta
-                property='og:image'
-                content='../../public/images/turtle.jpg'
-            />
+            <meta property='og:image' content='/images/turtle.jpg' />
             <meta property='og:site_name' content='Tomokiのポートフォリオ' />
             <meta property='og:locale' content='ja_JP' />
-            <link rel='shortcut icon' href='images/favicon.ico' />
-            <link
-                rel='apple-touch-icon'
-                sizes='180x180'
-                href='/favicon/apple.ico'
-            />
-            <link
-                rel='icon'
-                type='image/png'
-                sizes='32x32'
-                href='/images/favicon.ico'
-            />
-            <link
-                rel='icon'
-                type='image/png'
-                sizes='16x16'
-                href='/images/favicon.ico'
-            />
             <title>{title}</title>
         </Head>
     );

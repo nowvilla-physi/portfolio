@@ -25,6 +25,10 @@ class Document extends NextDocument {
                         name='msapplication-TileColor'
                         content='/favicons#0078d7'
                     />
+                    <meta
+                        name='msapplication-config'
+                        content='/favicons/browserconfig.xml'
+                    />
                     <link
                         rel='shortcut icon'
                         type='image/vnd.microsoft.icon'
@@ -107,20 +111,8 @@ class Document extends NextDocument {
                     <link
                         rel='icon'
                         type='image/png'
-                        sizes='128x128'
-                        href='/favicons/android-chrome-128x128.png'
-                    />
-                    <link
-                        rel='icon'
-                        type='image/png'
                         sizes='144x144'
                         href='/favicons/android-chrome-144x144.png'
-                    />
-                    <link
-                        rel='icon'
-                        type='image/png'
-                        sizes='152x152'
-                        href='/favicons/android-chrome-152x152.png'
                     />
                     <link
                         rel='icon'
@@ -139,12 +131,6 @@ class Document extends NextDocument {
                         type='image/png'
                         sizes='384x384'
                         href='/favicons/android-chrome-384x384.png'
-                    />
-                    <link
-                        rel='icon'
-                        type='image/png'
-                        sizes='512x512'
-                        href='/favicons/android-chrome-512x512.png'
                     />
                     <link
                         rel='icon'
@@ -241,6 +227,11 @@ class Document extends NextDocument {
                         type='image/png'
                         sizes='32x32'
                         href='/favicons/icon-32x32.png'
+                    />
+                    <link
+                        rel='mask-icon'
+                        href='/favicons/safari-pinned-tab.svg'
+                        color='#000000'
                     />
                     <link rel='manifest' href='/favicons/site.webmanifest' />
                 </Head>
