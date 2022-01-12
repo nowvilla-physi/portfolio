@@ -10,6 +10,9 @@ export const WORKS_URL = '/works';
 export const SKILLS_URL = '/skills';
 export const CONTACT_URL = '/contact';
 export const COPYRIGHT = "2021 Tomoki's Portfolio";
+export const COMING_SOON = 'Coming Soon...';
+export const COMING_SOON_SITE_URL =
+    'https://nowvilla-physi.github.io/coming-soon/';
 
 // home.
 export const HOME_PROFILE_TITLE = 'Programmer & Web Designer';
@@ -62,27 +65,17 @@ export const SERVICES_CODING_DESCRIPTION =
     '作成したデザインを正確にコードに落とし込みます。HTML、CSSをはじめ、サイトに動きをつけるためにJavaScriptを使用させていただきます。PCだけでなく、タブレット、スマートフォンに対応したレスポンシブなサイトもご提供させていただきます。';
 
 // works.
-export const WORKS_HP_SUB_TITLE = 'HP制作';
-export const WORKS_PROFILE_SITE = 'プロフィールサイト';
-export const WORKS_PHOTO1_SITE = 'フォトサイト';
-export const WORKS_PHOTO2_SITE = 'フォトサイト';
-export const WORKS_RECIPE_SITE = 'レシピサイト';
-export const WORKS_RECIPE_COOKING_SITE = 'レシピサイト';
-export const WORKS_BRAND_SITE = 'ブランドサイト（ジュエリー）';
-export const WORKS_PORTFOLIO_SITE = 'ポートフォリオサイト';
-export const WORKS_STORE_BOOK_SITE = 'ストアサイト';
-export const WORKS_STORE_CAFE_SITE = 'ストアサイト';
-export const WORKS_STORE_FURNITURE_SITE = 'ストアサイト';
-export const WORKS_BLOG_SITE = 'ブログサイト';
-export const WORKS_MEDIA_SITE = 'メディアサイト';
+export const WORKS_HP_SUB_TITLE = 'ホームページ制作';
 export const WORKS_DENTAL_CLINIC_SITE = '歯科医院サイト';
-export const WORKS_HOSHIKAKE_AQUARIUM_SITE = '星駆水族館サイト';
 export const WORKS_HOSHIKAKE_FIREWORK_SITE = '星駆花火大会サイト';
+export const WORKS_DENTAL_SITE_URL =
+    'https://nowvilla-physi.github.io/dental-clinic/';
 export const WORKS_HOSHIKAKE_FIREWORK_SITE_URL =
     'https://nowvilla-physi.github.io/FireWork/';
 export const WORKS_PET_SHOP_SITE = '爬虫類・両生類専門のペットショップ';
 export const WORKS_PET_SHOP_SITE_URL =
     'https://petshop-nature.vercel.app/blogs';
+export const WORKS_BANNER_SUB_TITLE = 'バナー制作';
 export const WORKS_NAME_CARD_SUB_TITLE = '名刺デザイン';
 export const WORKS_NAME_CARD_MYSELF = 'プログラマー & Webデザイナーの名刺';
 export const WORKS_NAME_CARD_DESIGNER = 'デザイナーの名刺';
@@ -123,21 +116,21 @@ export const SKILL_ANDROID_LABEL = 'Android';
 export const SKILL_KOTLIN_LABEL = 'Kotlin';
 export const SKILL_GIT_LABEL = 'Git';
 export const SKILL_HTML_DESCRIPTION =
-    'Webアプリ開発のプロジェクトに参画していた際に使用していました。最近は独学で始めたWeb制作で使用しています。HTMLは習熟済みであり、開発可能です。';
+    'Webアプリ開発のプロジェクトに参画していた際に使用していました。独学でやっているWeb制作でもメインで使用しています。HTMLは習熟済みであり、開発可能です。';
 export const SKILL_CSS_DESCRIPTION =
-    'Webアプリ開発のプロジェクトに参画していた際に使用していました。最近は独学で始めたWeb制作で使用しています。デザインに沿ったサイトの見た目をCSSで作成できます。CSSは習熟済みであり、開発可能です。';
+    'Webアプリ開発のプロジェクトに参画していた際に使用していました。独学でやっているWeb制作でもメインで使用しています。デザインに沿ったWebサイトをCSSを用いて作成できます。CSSは習熟済みであり、開発可能です。';
 export const SKILL_SASS_DESCRIPTION =
-    '現在、Web制作を独学で学習しており、CSSではなくSassを主に使用しています。実務経験はありませんが、開発経験があるCSSと同じくらいの知識があるため、開発可能です。';
+    '独学でやっているWeb制作でCSSに合わせて、Sassも使用しています。実務経験はありませんが、開発経験があるCSSと同じくらいの知識があるため、開発可能です。';
 export const SKILL_JS_DESCRIPTION =
-    'Webアプリ開発のプロジェクトに参画していた際に使用していました。生のJavaScript以外にもjQueryや非同期通信を行えるAjaxなども経験したことがあります。JavaScriptは習熟済みであり、開発可能です。';
+    'Webアプリ開発のプロジェクトに参画していた際に使用していました。生のJavaScript以外にもjQueryや非同期通信を行えるAjaxなども経験したことがあります。JavaScriptは得意分野の言語の1つで習熟済みであり、開発可能です。';
 export const SKILL_TS_DESCRIPTION =
     'JavaScriptの上方互換言語であるTypeScriptは基本的にWeb制作では使用しませんが、Webアプリ開発の際に使用いたします。TypeScriptは開発経験はありませんがJavaScriptと同様習熟済みであり、開発可能です。';
 export const SKILL_REACT_DESCRIPTION =
-    'フロントエンドのスキルとして一番興味ある技術です。独学で十分習得済みです。個人開発でReactを用いたWebアプリを開発していく予定です。 実務経験はありませんが、自分の一番の得意な技術であり、開発可能です。';
+    'フロントエンドのスキルとして1番興味がある技術です。独学ですが十分習得済みで、個人開発でReactを用いたWebアプリを開発しております。 実務経験はありませんが自分の1番得意な技術であり、開発可能です。';
 export const SKILL_NEXT_DESCRIPTION =
-    'Reactのフレームワークであり、独学で基礎知識は習得済みです。ReactにはないSEO対策やページの表示速度がかなり早くなります。実務経験はありませんが、Reactをベースとした技術なので、得意な技術の1つです。';
+    'Reactのフレームワークであり、Reactをベースとした技術のため得意な技術の1つです。独学ですが十分習得済みです。React同様に実務経験はありませんが、開発は可能です。';
 export const SKILL_FIGMA_DESCRIPTION =
-    '現在、Web制作を独学で学習しています。サイト設計であるワイヤーフレームやデザインラフ、デザインカンプをFigmaで使用しています。 使用感についてはある程度慣れてきたが、まだまだ知らない機能があるので使えこなせるようにしていきます。';
+    '独学でやっているWeb制作でデザインを作成する際に使用しております。サイト設計であるワイヤーフレームやデザインラフ、デザインカンプをFigmaで行っております。デザインの作成ではFigmaを使わせていただきます。';
 export const SKILL_PYTHON_DESCRIPTION =
     '主に、WebフレームワークであるDjangoやFlask、Responderを使用したWebアプリ開発のプロジェクトに参画していました。PythonのWebフレームワークはかなり簡易にサーバを立ち上げることができます。※機械学習の経験はありません。';
 export const SKILL_JAVA_DESCRIPTION =
