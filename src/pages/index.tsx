@@ -8,7 +8,6 @@ import styles from '../styles/home.module.scss';
 import * as Strings from '../strings';
 import myIcon from '../../public/images/myself.jpg';
 import { Head } from '../components/index';
-import { HOME_BLOG_DESCRIPTION } from '../strings';
 
 const Home: React.VFC = () => {
     return (
@@ -187,7 +186,9 @@ const Home: React.VFC = () => {
                                     rel='noopener noreferrer'
                                 >
                                     <FontAwesomeIcon
-                                        className={styles['home__link--item-icon']}
+                                        className={
+                                            styles['home__link--item-icon']
+                                        }
                                         icon={faGithub}
                                     />
                                 </a>
@@ -201,7 +202,9 @@ const Home: React.VFC = () => {
                                     rel='noopener noreferrer'
                                 >
                                     <FontAwesomeIcon
-                                        className={styles['home__link--item-icon']}
+                                        className={
+                                            styles['home__link--item-icon']
+                                        }
                                         icon={faTwitter}
                                     />
                                 </a>
@@ -215,7 +218,9 @@ const Home: React.VFC = () => {
                                     rel='noopener noreferrer'
                                 >
                                     <FontAwesomeIcon
-                                        className={styles['home__link--item-icon']}
+                                        className={
+                                            styles['home__link--item-icon']
+                                        }
                                         icon={faLink}
                                     />
                                 </a>
