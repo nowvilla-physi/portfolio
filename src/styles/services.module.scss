@@ -39,4 +39,33 @@
             flex-direction: column;
         }
     }
+
+    &__sub-title {
+        font-size: 2.8rem;
+
+        @include mq(lg) {
+            font-size: 2.0rem;
+        }
+
+        @include mq(md) {
+            font-size: 2.4rem;
+        }
+
+        @include mq(sm) {
+            font-size: 1.8rem;
+        }
+    }
+
+    &__a {
+        margin-top: 80px;
+        text-align: center;
+    }
+
+    &__tmp {
+        display: grid;
+        place-items: center;
+        gap: 80px;
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        margin-top: 48px;
+    }
 }

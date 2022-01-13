@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+@import "_variables.scss";
+@import "_mixin.scss";
+
+.card-item {
+    padding: 16px 32px;
+    border-radius: 8px;
+    background-color: $mainColor;
+    text-align: center;
+
+    &__image {
+        border-radius: 8px;
+    }
+
+    &__title {
+        margin-top: 16px;
+        padding-top: 16px;
+        border-top: 1px solid $baseColor;
+        color: $baseColor;
+    }
+}

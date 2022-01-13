@@ -1,5 +1,6 @@
 export { default as BottomNavigation } from './BottomNavigation';
 export { default as Button } from './Button';
+export { default as CardItem } from './CardItem';
 export { default as Head } from './CustomHead';
 export { default as Footer } from './Footer';
 export { default as HamburgerMenu } from './HamburgerMenu';

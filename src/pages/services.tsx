@@ -4,9 +4,10 @@ import {
     faKeyboard,
     faPalette,
 } from '@fortawesome/free-solid-svg-icons';
-import { Head, ServiceItem } from '../components/index';
+import { CardItem, Head, ServiceItem } from '../components/index';
 import styles from '../styles/services.module.scss';
 import * as Strings from '../strings';
+import webPalette from '../../public/images/tmp.png';
 
 const Services: React.VFC = () => {
     return (
@@ -36,6 +37,16 @@ const Services: React.VFC = () => {
                     description={Strings.SERVICES_CODING_DESCRIPTION}
                 />
             </div>
+            <section className={styles['services__a']}>
+                <h2 className={styles['services__sub-title']}>対応一覧</h2>
+                <div className={styles.services__tmp}>
+                    <CardItem alt='alt' imgUrl={webPalette} title='aide' />
+                    <CardItem alt='alt' imgUrl={webPalette} title='aide' />
+                    <CardItem alt='alt' imgUrl={webPalette} title='aide' />
+                    <CardItem alt='alt' imgUrl={webPalette} title='aide' />
+                    <CardItem alt='alt' imgUrl={webPalette} title='aide' />
+                </div>
+            </section>
         </div>
     );
 };
