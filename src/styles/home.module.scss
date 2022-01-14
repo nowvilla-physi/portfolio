@@ -25,7 +25,6 @@
         padding: 24px 32px;
         border-radius: 16px;
         background-color: $mainColor;
-        color: $baseColor;
 
         @include mq(lg) {
             min-width: 0;
@@ -66,9 +65,9 @@
 
         &--basic {
             padding: 8px 0;
+            box-shadow: 0 0 8px $baseColor;
             border-radius: 8px;
             background-color: $baseColor;
-            color: $mainColor;
             text-align: center;
         }
 
@@ -136,9 +135,9 @@
     &__certification {
         margin-top: 16px;
         padding: 16px 32px;
+        box-shadow: 0 0 8px $baseColor;
         border-radius: 8px;
         background-color: $baseColor;
-        color: $mainColor;
 
         @include mq(sm) {
             padding: 16px;
@@ -178,9 +177,9 @@
     &__other {
         margin-top: 16px;
         padding: 16px 0 16px 32px;
+        box-shadow: 0 0 8px $baseColor;
         border-radius: 8px;
         background-color: $baseColor;
-        color: $mainColor;
 
         @include mq(sm) {
             padding: 16px;
@@ -215,14 +214,13 @@
         margin: 16px 16px 0 0;
 
         @include mq(sm) {
-            margin: 16px -16px 0 0;
+            margin: 16px -32px 0 0;
         }
 
         &--item {
             margin-right: 32px;
 
             &-icon {
-                color: $mainColor;
                 font-size: 28px;
                 transition: all 300ms;
 

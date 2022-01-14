@@ -14,8 +14,8 @@
     width: 100%;
     height: 64px;
     padding: 16px 2%;
-    border-bottom: 1px solid $light-gray;
-    background-color: $base-color-transparent;
+    border-bottom: 1px solid $lightGray;
+    background-color: $baseColorTransparent;
 
     @include mq(sm) {
         height: 40px;

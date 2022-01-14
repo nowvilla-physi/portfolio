@@ -39,4 +39,55 @@
             flex-direction: column;
         }
     }
+
+    &__sub-title {
+        font-size: 2.0rem;
+        letter-spacing: 2px;
+
+        @include mq(sm) {
+            font-size: 1.8rem;
+        }
+    }
+
+    &__list {
+        margin-top: 80px;
+        text-align: center;
+
+        @include mq(sm) {
+            margin-top: 0;
+        }
+
+        &--cards {
+            display: grid;
+            place-items: center;
+            gap: 64px;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            margin-top: 48px;
+
+            @include mq(sm) {
+                gap: 24px;
+                margin-top: 32px;
+            }
+        }
+    }
+
+    &__price {
+        margin-top: 40px;
+        color: $accentColor;
+        font-size: 1.4rem;
+        text-align: center;
+        line-height: 1.6;
+
+        @include mq(lg) {
+            text-align: left;
+        }
+
+        @include mq(md) {
+            padding-bottom: 48px;
+        }
+
+        @include mq(sm) {
+            font-size: 1.0rem;
+        }
+    }
 }

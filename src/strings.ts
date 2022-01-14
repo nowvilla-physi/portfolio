@@ -63,6 +63,18 @@ export const SERVICES_CODING_TITLE = 'コーディング';
 export const SERVICES_CODING_RUBY = 'Coding';
 export const SERVICES_CODING_DESCRIPTION =
     '作成したデザインを正確にコードに落とし込みます。HTML、CSSをはじめ、サイトに動きをつけるためにJavaScriptを使用させていただきます。PCだけでなく、タブレット、スマートフォンに対応したレスポンシブなサイトもご提供させていただきます。';
+export const SERVICES_LIST_TITLE = 'サービス一覧';
+export const SERVICES_ITEM_HP = 'HP作成 / 改修';
+export const SERVICES_ITEM_LP = 'LP作成 / 改修';
+export const SERVICES_ITEM_BANNER_DESIGN = 'バナーデザイン';
+export const SERVICES_ITEM_NAME_CARD_DESIGN = '名刺デザイン';
+export const SERVICES_ITEM_FLYER_DESIGN = 'チラシデザイン';
+export const SERVICES_ITEM_PACKAGE_DESIGN = 'パッケージデザイン';
+export const SERVICES_ITEM_RESPONSIVE = 'レスポンシブ対応';
+export const SERVICES_ITEM_WORD_PRESS = 'ワードプレス';
+export const SERVICES_ITEM_SEO = 'SEO対策';
+export const SERVICES_PRICE =
+    '※料金については対応内容によって変動しますので、別途相談して決定させていただきます';
 
 // works.
 export const WORKS_HP_SUB_TITLE = 'ホームページ制作';
