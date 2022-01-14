@@ -4,13 +4,15 @@
 @import "_mixin.scss";
 
 .card-item {
+    width: 240px;
     padding: 16px 32px;
     border-radius: 8px;
+    box-shadow: 0 0 8px $mainColor;
     background-color: $mainColor;
     text-align: center;
 
-    &__image {
-        border-radius: 8px;
+    @include mq(sm) {
+        width: 216px;
     }
 
     &__title {
@@ -18,5 +20,9 @@
         padding-top: 16px;
         border-top: 1px solid $baseColor;
         color: $baseColor;
+
+        @include mq(sm) {
+            font-size: 1.0rem;
+        }
     }
 }

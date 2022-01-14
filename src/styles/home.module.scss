@@ -65,6 +65,7 @@
 
         &--basic {
             padding: 8px 0;
+            box-shadow: 0 0 8px $baseColor;
             border-radius: 8px;
             background-color: $baseColor;
             text-align: center;
@@ -134,6 +135,7 @@
     &__certification {
         margin-top: 16px;
         padding: 16px 32px;
+        box-shadow: 0 0 8px $baseColor;
         border-radius: 8px;
         background-color: $baseColor;
 
@@ -175,6 +177,7 @@
     &__other {
         margin-top: 16px;
         padding: 16px 0 16px 32px;
+        box-shadow: 0 0 8px $baseColor;
         border-radius: 8px;
         background-color: $baseColor;
 

@@ -14,6 +14,8 @@ const CardItem: React.VFC<Props> = (props) => {
         <div className={styles['card-item']}>
             <Image
                 className={styles['card-item__image']}
+                width={120}
+                height={120}
                 src={imgUrl}
                 alt={alt}
             />

@@ -6,6 +6,11 @@
 .works {
     position: relative;
     margin: 64px 0;
+    padding-top: 40px;
+
+    @include mq(lg) {
+        padding-top: 64px;
+    }
 
     &__title {
         position: absolute;
@@ -27,21 +32,13 @@
     }
 
     &__sub-title {
-        padding-top: 100px;
+        padding-top: 80px;
         font-size: 2.0rem;
         text-align: center;
-
-        @include mq(xl) {
-            padding-top: 184px;
-        }
+        letter-spacing: 2px;
 
         @include mq(sm) {
-            padding-top: 144px;
             font-size: 1.8rem;
-        }
-
-        &:not(:first-of-type) {
-            padding-top: 48px;
         }
     }
 
@@ -51,12 +48,11 @@
         grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
         max-width: 1080px;
         margin: 0 auto;
-        padding: 80px 0 40px;
+        padding-top: 40px;
 
         @include mq(md) {
             gap: 64px;
             grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            padding: 40px 4%;
         }
 
         @include mq(sm) {
