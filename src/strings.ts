@@ -83,7 +83,7 @@ export const WORKS_HOSHIKAKE_FIREWORK_SITE = '星駆花火大会サイト';
 export const WORKS_DENTAL_SITE_URL =
     'https://nowvilla-physi.github.io/dental-clinic/';
 export const WORKS_HOSHIKAKE_FIREWORK_SITE_URL =
-    'https://nowvilla-physi.github.io/FireWork/';
+    'https://nowvilla-physi.github.io/firework/';
 export const WORKS_PET_SHOP_SITE = '爬虫類・両生類専門のペットショップ';
 export const WORKS_PET_SHOP_SITE_URL =
     'https://petshop-nature.vercel.app/blogs';
