@@ -12,7 +12,6 @@ import servicesFlyer from '../../public/images/services-flyer.svg';
 import servicesHomePage from '../../public/images/services-home-page.svg';
 import servicesLP from '../../public/images/services-lp.svg';
 import servicesNameCard from '../../public/images/services-name-card.svg';
-import servicesPackage from '../../public/images/services-package.svg';
 import servicesResponsive from '../../public/images/services-responsive.svg';
 import servicesSEO from '../../public/images/services-seo.svg';
 import servicesWordPress from '../../public/images/services-word-press.svg';
@@ -74,11 +73,6 @@ const Services: React.VFC = () => {
                         alt={Strings.SERVICES_ITEM_FLYER_DESIGN}
                         imgUrl={servicesFlyer}
                         title={Strings.SERVICES_ITEM_FLYER_DESIGN}
-                    />
-                    <CardItem
-                        alt={Strings.SERVICES_ITEM_PACKAGE_DESIGN}
-                        imgUrl={servicesPackage}
-                        title={Strings.SERVICES_ITEM_PACKAGE_DESIGN}
                     />
                     <CardItem
                         alt={Strings.SERVICES_ITEM_RESPONSIVE}

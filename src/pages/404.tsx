@@ -2,7 +2,7 @@ import React from 'react';
 import Router from 'next/router';
 import Image from 'next/image';
 import { Button } from '../components';
-import ErrorImage from '../../public/images/error.jpg';
+import ErrorImage from '../../public/images/error.png';
 import styles from '../styles/error.module.scss';
 import * as Strings from '../strings';
 
@@ -13,8 +13,8 @@ const Error: React.VFC = () => {
 
     return (
         <div className={styles.error}>
-            <h2 className={styles['error__status-code']}>
-                {Strings.ERROR_404}
+            <h2 className={styles['error__not-found']}>
+                {Strings.ERROR_NOT_FOUND}
             </h2>
             <p className={styles.error__message}>{Strings.ERROR_404_MESSAGE}</p>
             <div className={styles['error__image-wrapper']}>

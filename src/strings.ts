@@ -69,7 +69,6 @@ export const SERVICES_ITEM_LP = 'LP作成 / 改修';
 export const SERVICES_ITEM_BANNER_DESIGN = 'バナーデザイン';
 export const SERVICES_ITEM_NAME_CARD_DESIGN = '名刺デザイン';
 export const SERVICES_ITEM_FLYER_DESIGN = 'チラシデザイン';
-export const SERVICES_ITEM_PACKAGE_DESIGN = 'パッケージデザイン';
 export const SERVICES_ITEM_RESPONSIVE = 'レスポンシブ対応';
 export const SERVICES_ITEM_WORD_PRESS = 'ワードプレス';
 export const SERVICES_ITEM_SEO = 'SEO対策';
@@ -86,7 +85,7 @@ export const WORKS_HOSHIKAKE_FIREWORK_SITE_URL =
     'https://nowvilla-physi.github.io/firework/';
 export const WORKS_PET_SHOP_SITE = '爬虫類・両生類専門のペットショップ';
 export const WORKS_PET_SHOP_SITE_URL =
-    'https://petshop-nature.vercel.app/blogs';
+    'https://petshop-nature.vercel.app/pet/tortoise';
 export const WORKS_BANNER_SUB_TITLE = 'バナー制作';
 export const WORKS_NAME_CARD_SUB_TITLE = '名刺デザイン';
 export const WORKS_NAME_CARD_MYSELF = 'プログラマー & Webデザイナーの名刺';
@@ -99,7 +98,7 @@ export const WORKS_NAME_CARD_DOG_TRAINER = 'ドッグトレーナーの名刺';
 export const WORKS_NAME_CARD_CHEMICAL = '化学薬品会社の名刺';
 export const WORKS_NAME_CARD_SEMICONDUCTOR = '半導体工場の名刺';
 export const WORKS_NAME_CARD_URL =
-    'https://nowvilla-physi.github.io/name-card/';
+    'https://name-card-design.vercel.app/';
 export const WORKS_WEB_APP_SUB_TITLE = 'Webアプリ開発';
 export const WORKS_REACTIVE_FINGER = 'タイピングゲーム';
 export const WORKS_WEB_PALETTE = 'カラーツール';
@@ -175,6 +174,6 @@ export const CONTACT_TO_NAME = '今村知貴さん';
 
 // error.
 export const ERROR_RETURN_HOME_BUTTON = 'ホームに戻る';
-export const ERROR_404 = '404';
+export const ERROR_NOT_FOUND = 'Not Found';
 export const ERROR_404_MESSAGE =
     'このページはすでに削除されているか、URLが間違っている可能性があります。';
