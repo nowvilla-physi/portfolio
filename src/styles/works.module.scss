@@ -8,6 +8,10 @@
     margin: 64px 0;
     padding-top: 40px;
 
+    @include mq(sm) {
+        padding-bottom: 40px;
+    }
+
     @include mq(lg) {
         padding-top: 64px;
     }
@@ -57,7 +61,7 @@
 
         @include mq(sm) {
             gap: 48px;
-            grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(184px, 1fr));
         }
     }
 }

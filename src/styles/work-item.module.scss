@@ -26,5 +26,9 @@
 
     &:hover {
         transform: scale(1.09);
+
+        @include mq(sm) {
+            transform: scale(1.02);
+        }
     }
 }
