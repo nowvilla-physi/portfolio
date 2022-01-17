@@ -4,6 +4,7 @@ import styles from '../styles/works.module.scss';
 import * as Strings from '../strings';
 import dentalSite from '../../public/images/works-dental-site.png';
 import comingSoon from '../../public/images/coming-soon.png';
+import christmasSale from '../../public/images/works-banner-christmas-sale.png';
 import fireworkSite from '../../public/images/works-firework-site.png';
 import petShop from '../../public/images/works-pet-shop.png';
 import muSelfNameCard from '../../public/images/works-name-card-myself.png';
@@ -54,9 +55,9 @@ const Works: React.VFC = () => {
                 </h3>
                 <div className={styles.works__container}>
                     <WorkItem
-                        imgUrl={comingSoon}
-                        siteSummary={Strings.COMING_SOON}
-                        siteUrl={Strings.COMING_SOON_SITE_URL}
+                        imgUrl={christmasSale}
+                        siteSummary={Strings.WORKS_BANNER_CHRISTMAS_SALE}
+                        siteUrl={Strings.WORKS_BANNER_URL}
                     />
                     <WorkItem
                         imgUrl={comingSoon}

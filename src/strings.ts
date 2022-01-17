@@ -87,6 +87,8 @@ export const WORKS_PET_SHOP_SITE = '爬虫類・両生類専門のペットシ�
 export const WORKS_PET_SHOP_SITE_URL =
     'https://petshop-nature.vercel.app/pet/tortoise';
 export const WORKS_BANNER_SUB_TITLE = 'バナー制作';
+export const WORKS_BANNER_CHRISTMAS_SALE = 'クリスマスセール';
+export const WORKS_BANNER_URL = 'https://banner-design.vercel.app/';
 export const WORKS_NAME_CARD_SUB_TITLE = '名刺デザイン';
 export const WORKS_NAME_CARD_MYSELF = 'プログラマー & Webデザイナーの名刺';
 export const WORKS_NAME_CARD_DESIGNER = 'デザイナーの名刺';
@@ -97,8 +99,7 @@ export const WORKS_NAME_CARD_ARCHITECT = '建築家の名刺';
 export const WORKS_NAME_CARD_DOG_TRAINER = 'ドッグトレーナーの名刺';
 export const WORKS_NAME_CARD_CHEMICAL = '化学薬品会社の名刺';
 export const WORKS_NAME_CARD_SEMICONDUCTOR = '半導体工場の名刺';
-export const WORKS_NAME_CARD_URL =
-    'https://name-card-design.vercel.app/';
+export const WORKS_NAME_CARD_URL = 'https://name-card-design.vercel.app/';
 export const WORKS_WEB_APP_SUB_TITLE = 'Webアプリ開発';
 export const WORKS_REACTIVE_FINGER = 'タイピングゲーム';
 export const WORKS_WEB_PALETTE = 'カラーツール';
