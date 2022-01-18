@@ -10,9 +10,6 @@ export const WORKS_URL = '/works';
 export const SKILLS_URL = '/skills';
 export const CONTACT_URL = '/contact';
 export const COPYRIGHT = "2021 Tomoki's Portfolio";
-export const COMING_SOON = 'Coming Soon...';
-export const COMING_SOON_SITE_URL =
-    'https://nowvilla-physi.github.io/coming-soon/';
 
 // home.
 export const HOME_PROFILE_TITLE = 'Programmer & Web Designer';
@@ -88,6 +85,7 @@ export const WORKS_PET_SHOP_SITE_URL =
     'https://petshop-nature.vercel.app/pet/tortoise';
 export const WORKS_BANNER_SUB_TITLE = 'バナー制作';
 export const WORKS_BANNER_CHRISTMAS_SALE = 'クリスマスセール';
+export const WORKS_BANNER_WINTER_SESSION = '塾(冬季講習)';
 export const WORKS_BANNER_URL = 'https://banner-design.vercel.app/';
 export const WORKS_NAME_CARD_SUB_TITLE = '名刺デザイン';
 export const WORKS_NAME_CARD_MYSELF = 'プログラマー & Webデザイナーの名刺';

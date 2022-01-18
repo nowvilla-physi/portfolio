@@ -3,8 +3,8 @@ import { Head, WorkItem } from '../components/index';
 import styles from '../styles/works.module.scss';
 import * as Strings from '../strings';
 import dentalSite from '../../public/images/works-dental-site.png';
-import comingSoon from '../../public/images/coming-soon.png';
 import christmasSale from '../../public/images/works-banner-christmas-sale.png';
+import winterSession from '../../public/images/works-banner-winter-session.png';
 import fireworkSite from '../../public/images/works-firework-site.png';
 import petShop from '../../public/images/works-pet-shop.png';
 import muSelfNameCard from '../../public/images/works-name-card-myself.png';
@@ -60,9 +60,9 @@ const Works: React.VFC = () => {
                         siteUrl={Strings.WORKS_BANNER_URL}
                     />
                     <WorkItem
-                        imgUrl={comingSoon}
-                        siteSummary={Strings.COMING_SOON}
-                        siteUrl={Strings.COMING_SOON_SITE_URL}
+                        imgUrl={winterSession}
+                        siteSummary={Strings.WORKS_BANNER_WINTER_SESSION}
+                        siteUrl={Strings.WORKS_BANNER_URL}
                     />
                 </div>
             </section>
