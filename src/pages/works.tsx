@@ -5,6 +5,7 @@ import * as Strings from '../strings';
 import dentalSite from '../../public/images/works-dental-site.png';
 import christmasSale from '../../public/images/works-banner-christmas-sale.png';
 import winterSession from '../../public/images/works-banner-winter-session.png';
+import moving from '../../public/images/works-banner-moving.png';
 import fireworkSite from '../../public/images/works-firework-site.png';
 import petShop from '../../public/images/works-pet-shop.png';
 import muSelfNameCard from '../../public/images/works-name-card-myself.png';
@@ -62,6 +63,11 @@ const Works: React.VFC = () => {
                     <WorkItem
                         imgUrl={winterSession}
                         siteSummary={Strings.WORKS_BANNER_WINTER_SESSION}
+                        siteUrl={Strings.WORKS_BANNER_URL}
+                    />
+                    <WorkItem
+                        imgUrl={moving}
+                        siteSummary={Strings.WORKS_BANNER_MOVING}
                         siteUrl={Strings.WORKS_BANNER_URL}
                     />
                 </div>
