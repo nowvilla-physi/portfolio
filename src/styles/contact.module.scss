@@ -3,6 +3,8 @@
 @import "_variables.scss";
 @import "_mixin.scss";
 
+$borderRadius: 4px;
+
 .contact {
     position: relative;
     margin: 64px 0;
@@ -53,8 +55,9 @@
 
     &__submit {
         margin: 32px 0;
-        padding: 8px 80px;
+        padding: 16px 120px;
         border-radius: 24px;
+        box-shadow: 0 0 8px $mainColor;
         background-color: $mainColor;
         color: $baseColor;
         transition: all 300ms;
@@ -64,11 +67,13 @@
         }
 
         &:hover {
+            box-shadow: 0 0 8px $accentColor;
             background-color: $accentColor;
             color: $white;
         }
 
         &:disabled {
+            box-shadow: none;
             background-color: $lightGray;
             color: $silver;
         }
@@ -80,11 +85,7 @@
         max-width: 1080px;
         width: 100%;
         margin: 0 auto;
-        padding-top: 140px;
-
-        @include mq(xl) {
-            padding-top: 216px;
-        }
+        padding-top: 184px;
 
         @include mq(lg) {
             padding-top: 184px;
@@ -107,6 +108,14 @@
             padding: 3% 4%;
             background-color: $silver;
             color: $baseColor;
+
+            &:first-of-type {
+                border-top-left-radius: $borderRadius;
+            }
+
+            &:last-of-type {
+                border-bottom-left-radius: $borderRadius;
+            }
 
             @include mq(md) {
                 width: 100%;
@@ -142,6 +151,14 @@
             color: $black;
             font-size: 1.1rem;
             font-weight: normal;
+
+            &:first-of-type {
+                border-top-right-radius: $borderRadius;
+            }
+
+            &:last-of-type {
+                border-bottom-right-radius: $borderRadius;
+            }
 
             @include mq(md) {
                 width: 100%;
