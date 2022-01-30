@@ -17,6 +17,8 @@ const Loading: React.VFC<Props> = (props) => {
                 className={styles.loading__icon}
                 src={loadingIcon}
                 alt='ローディング'
+                width={64}
+                height={64}
             />
             <p className={styles.loading__message}>{message}</p>
         </div>
