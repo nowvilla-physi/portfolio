@@ -87,6 +87,7 @@ export const WORKS_BANNER_SUB_TITLE = 'バナー制作';
 export const WORKS_BANNER_CHRISTMAS_SALE = 'クリスマスセール';
 export const WORKS_BANNER_WINTER_SESSION = '塾(冬季講習)';
 export const WORKS_BANNER_MOVING = '引越し業者';
+export const WORKS_BANNER_HAMBURGER = '新メニューのハンバーガー';
 export const WORKS_BANNER_URL = 'https://banner-design.vercel.app/';
 export const WORKS_NAME_CARD_SUB_TITLE = '名刺デザイン';
 export const WORKS_NAME_CARD_MYSELF = 'プログラマー & Webデザイナーの名刺';
