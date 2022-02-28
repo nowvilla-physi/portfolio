@@ -14,7 +14,6 @@ type Post = {
 
 const Contact: React.VFC = () => {
     const [isShow, setIsShow] = useState(false);
-
     const {
         register,
         handleSubmit,
