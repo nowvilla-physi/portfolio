@@ -29,6 +29,13 @@ module.exports = {
             'error',
             { variables: false },
         ],
+        'react/function-component-definition': [
+            2,
+            {
+                namedComponents: 'arrow-function',
+                unnamedComponents: 'arrow-function',
+            },
+        ],
         '@typescript-eslint/no-unused-vars': 'error',
         'react/react-in-jsx-scope': 'off',
         'import/no-unresolved': 'off',
