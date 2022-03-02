@@ -14,7 +14,7 @@ export const COPYRIGHT = "2021 Tomoki's Portfolio";
 // home.
 export const HOME_PROFILE_TITLE = 'Programmer & Web Designer';
 export const HOME_PROFILE_NAME = 'Tomoki Imamura';
-export const HOME_PROFILE_FAVORITE = '爬虫類・両生類が好きなWeb制作者';
+export const HOME_PROFILE_FAVORITE = '爬虫類・両生類が好きなスマホアプリ開発者';
 export const HOME_CERTIFICATION_TITLE = '保有資格';
 export const HOME_CERTIFICATION_FE = '基本情報技術者試験 合格';
 export const HOME_CERTIFICATION_AP = '応用情報技術者試験 合格';
