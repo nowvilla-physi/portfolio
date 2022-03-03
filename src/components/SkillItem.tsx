@@ -31,7 +31,13 @@ const SkillItem: React.VFC<Props> = (props) => {
                 <p className={styles['skill-item__contents--description']}>
                     {description}
                 </p>
-                <p className={styles['skill-item__contents--hasExperienced']}>
+                <p
+                    className={
+                        hasExperienced
+                            ? styles['skill-item__contents--hasExperienced']
+                            : styles['skill-item__contents--hasNotExperienced']
+                    }
+                >
                     {hasExperienced
                         ? Strings.SKILL_EXPERIENCED
                         : Strings.SKILL_NO_EXPERIENCE}

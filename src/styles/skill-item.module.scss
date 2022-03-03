@@ -47,13 +47,11 @@
         }
 
         &--hasExperienced {
-            margin-top: 4px;
-            padding: 4px 4px;
-            width: 124px;
-            border-radius: 16px;
-            background-color: $accentColor;
-            font-size: 0.9rem;
-            text-align: center;
+            @include experiencedSkillLabel($accentColor);
+        }
+
+        &--hasNotExperienced {
+            @include experiencedSkillLabel($mainColor);
         }
     }
 }

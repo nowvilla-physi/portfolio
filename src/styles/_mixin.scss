@@ -1,9 +1,21 @@
 @charset "utf-8";
 
 @import "_breakpoints.scss";
+@import "_variables.scss";
 
 @mixin mq($breakPoint) {
     @media #{map-get($breakPoints, $breakPoint)} {
         @content;
     }
+}
+
+@mixin experiencedSkillLabel($backgroundColor) {
+    margin-top: 4px;
+    padding: 4px;
+    width: 124px;
+    border-radius: 16px;
+    background-color: $backgroundColor;
+    color: $white;
+    font-size: 0.9rem;
+    text-align: center;
 }
