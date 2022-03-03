@@ -126,6 +126,10 @@ export const SKILL_PYTHON_LABEL = 'Python';
 export const SKILL_JAVA_LABEL = 'Java';
 export const SKILL_ANDROID_LABEL = 'Android';
 export const SKILL_KOTLIN_LABEL = 'Kotlin';
+export const SKILL_IOS_LABEL = 'iOS';
+export const SKILL_SWIFT_LABEL = 'Swift';
+export const SKILL_FLUTTER_LABEL = 'Flutter';
+export const SKILL_DART_LABEL = 'Dart';
 export const SKILL_GIT_LABEL = 'Git';
 export const SKILL_HTML_DESCRIPTION =
     'Webアプリ開発のプロジェクトに参画していた際に使用していました。独学でやっているWeb制作でもメインで使用しています。HTMLは習熟済みであり、開発可能です。';
@@ -148,9 +152,17 @@ export const SKILL_PYTHON_DESCRIPTION =
 export const SKILL_JAVA_DESCRIPTION =
     '私がプログラミングを初めた際に一番最初に学習した言語です。実務経験こそありませんが、Javaの知識は十分にあります。';
 export const SKILL_ANDROID_DESCRIPTION =
-    '現在、Androidのアプリ開発プロジェクトに参画しており、とあるモバイルサービスのアプリを開発しています。Android開発に必要な基礎的な知識は習得しています。';
+    '現在、アプリ開発プロジェクトに参画しており、とあるモバイルサービスのアプリを開発しています。Androidのアプリ開発の能力は十分習得できているため開発可能です。';
 export const SKILL_KOTLIN_DESCRIPTION =
-    'Androidのアプリ開発プロジェクトに参画しており、その開発言語としてKotlinを使用しています。モダンな言語でベースとなったJavaと比べて記述がとてもシンプルに書くことができます。';
+    'アプリ開発プロジェクトに参画しており、その開発言語としてKotlinを使用しています。モダンな言語でベースとなったJavaと比べて記述がとてもシンプルに書くことができます。Kotlinは一番得意な言語です。';
+export const SKILL_IOS_DESCRIPTION =
+    '現在、アプリ開発プロジェクトに参画しており、とあるモバイルサービスのアプリを開発しています。iOSのアプリ開発に必要な基礎的な知識は習得しています。';
+export const SKILL_SWIFT_DESCRIPTION =
+    'アプリ開発プロジェクトに参画しており、その開発言語としてSwiftを使用しています。Swiftは最近使い始めましたが、特に開発に支障はございません。';
+export const SKILL_FLUTTER_DESCRIPTION =
+    '現在、アプリ開発プロジェクトに参画しており、クロスプラットフォームの技術に興味があり最近個人的に実践してみました。現在、アプリを1つストアに公開しております。もちろん開発可能です。';
+export const SKILL_DART_DESCRIPTION =
+    'Flutterで使用する言語ですが、JavaやKotlinと近しい言語のため、最近始めた言語ですが特に開発に支障はありません。';
 export const SKILL_GIT_DESCRIPTION =
     '参画した様々なプロジェクトでGitを使用していたため、Gitを用いたバージョン管理の概念や操作は理解できています。基本的にはGUIでGitを扱うソフトウェアであるSourceTreeを用いて開発しています。';
 
