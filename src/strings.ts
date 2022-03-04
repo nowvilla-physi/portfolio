@@ -162,7 +162,7 @@ export const SKILL_SWIFT_DESCRIPTION =
 export const SKILL_FLUTTER_DESCRIPTION =
     '現在、アプリ開発プロジェクトに参画しており、クロスプラットフォームの技術に興味があり最近個人的に実践してみました。現在、アプリを1つストアに公開しております。もちろん開発可能です。';
 export const SKILL_DART_DESCRIPTION =
-    'Flutterで使用する言語ですが、JavaやKotlinと近しい言語のため、最近始めた言語ですが特に開発に支障はありません。';
+    'Flutterで使用する言語ですが、JavaやKotlinと近しい言語のため、最近始めた言語ですが特に開発に支障はございません。';
 export const SKILL_GIT_DESCRIPTION =
     '参画した様々なプロジェクトでGitを使用していたため、Gitを用いたバージョン管理の概念や操作は理解できています。基本的にはGUIでGitを扱うソフトウェアであるSourceTreeを用いて開発しています。';
 
