@@ -73,12 +73,6 @@ const Skills: React.VFC = () => {
                 imageUrl={nextIcon}
                 label={Strings.SKILL_NEXT_LABEL}
             />
-            <SkillItem
-                description={Strings.SKILL_FIGMA_DESCRIPTION}
-                hasExperienced={false}
-                imageUrl={figmaIcon}
-                label={Strings.SKILL_FIGMA_LABEL}
-            />
             <h3 className={styles['skills__sub-title']}>
                 {Strings.SKILL_BACKEND_TITLE}
             </h3>
@@ -141,6 +135,12 @@ const Skills: React.VFC = () => {
                 hasExperienced
                 imageUrl={gitIcon}
                 label={Strings.SKILL_GIT_LABEL}
+            />
+            <SkillItem
+                description={Strings.SKILL_FIGMA_DESCRIPTION}
+                hasExperienced={false}
+                imageUrl={figmaIcon}
+                label={Strings.SKILL_FIGMA_LABEL}
             />
         </div>
     );
