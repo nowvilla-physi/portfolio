@@ -111,10 +111,19 @@ $borderRadius: 4px;
 
             &:first-of-type {
                 border-top-left-radius: $borderRadius;
+                border-top-right-radius: 0;
+
+                @include mq(md) {
+                    border-top-right-radius: $borderRadius;
+                }
             }
 
             &:last-of-type {
                 border-bottom-left-radius: $borderRadius;
+
+                @include mq(md) {
+                    border-bottom-left-radius: 0;
+                }
             }
 
             @include mq(md) {
@@ -154,10 +163,19 @@ $borderRadius: 4px;
 
             &:first-of-type {
                 border-top-right-radius: $borderRadius;
+
+                @include mq(md) {
+                    border-top-right-radius: 0;
+                }
             }
 
             &:last-of-type {
                 border-bottom-right-radius: $borderRadius;
+                border-bottom-left-radius: 0;
+
+                @include mq(md) {
+                    border-bottom-left-radius: $borderRadius;
+                }
             }
 
             @include mq(md) {

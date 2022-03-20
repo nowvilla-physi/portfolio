@@ -74,9 +74,12 @@ export const SERVICES_PRICE =
 
 // works.
 export const WORKS_SMARTPHONE_SUB_TITLE = 'スマホアプリ開発';
-export const WORKS_AHA_EXPERIENCE_APP = '脳トレ アハ体験アプリ';
+export const WORKS_AHA_EXPERIENCE_APP = '脳トレ - アハ!!体験 -';
 export const WORKS_AHA_EXPERIENCE_APP_HP =
     'https://vercel.com/nowvilla-physi/aha-experience-hp';
+export const WORKS_AHA_CHALLENGE_APP = '古代エジプトからの挑戦状';
+export const WORKS_AHA_CHALLENGE_APP_HP =
+    'https://challenge-from-ancient-egypt-hp.vercel.app/';
 export const WORKS_HP_SUB_TITLE = 'ホームページ制作';
 export const WORKS_DENTAL_CLINIC_SITE = '歯科医院サイト';
 export const WORKS_HOSHIKAKE_FIREWORK_SITE = '星駆花火大会サイト';

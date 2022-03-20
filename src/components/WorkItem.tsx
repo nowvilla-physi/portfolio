@@ -21,11 +21,14 @@ const WorkItem: React.VFC<Props> = (props) => {
             className={styles['work-item']}
             onClick={() => openSite()}
         >
-            <Image
-                className={styles['work-item__image']}
-                src={imgUrl}
-                alt='成果物'
-            />
+            <div className={styles['work-item__image-wrapper']}>
+                <Image
+                    className={styles['work-item__image']}
+                    src={imgUrl}
+                    alt='成果物'
+                />
+            </div>
+
             <p className={styles['work-item__summary']}>{siteSummary}</p>
         </button>
     );

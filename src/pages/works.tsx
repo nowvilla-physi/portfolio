@@ -2,6 +2,8 @@ import React from 'react';
 import { Head, WorkItem } from '../components/index';
 import styles from '../styles/works.module.scss';
 import * as Strings from '../strings';
+import ahaExperience from '../../public/images/works-native-app-aha-experience.png';
+import challenge from '../../public/images/works-native-app-challenge.png';
 import dentalSite from '../../public/images/works-dental-site.png';
 import christmasSale from '../../public/images/works-banner-christmas-sale.png';
 import winterSession from '../../public/images/works-banner-winter-session.png';
@@ -29,6 +31,23 @@ const Works: React.VFC = () => {
                 url='https://portfolio-tomoki.vercel.app/works'
             />
             <h2 className={styles.works__title} />
+            <section>
+                <h3 className={styles['works__sub-title']}>
+                    {Strings.WORKS_SMARTPHONE_SUB_TITLE}
+                </h3>
+                <div className={styles.works__container}>
+                    <WorkItem
+                        imgUrl={ahaExperience}
+                        siteSummary={Strings.WORKS_AHA_EXPERIENCE_APP}
+                        siteUrl={Strings.WORKS_AHA_EXPERIENCE_APP_HP}
+                    />
+                    <WorkItem
+                        imgUrl={challenge}
+                        siteSummary={Strings.WORKS_AHA_CHALLENGE_APP}
+                        siteUrl={Strings.WORKS_AHA_CHALLENGE_APP_HP}
+                    />
+                </div>
+            </section>
             <section>
                 <h3 className={styles['works__sub-title']}>
                     {Strings.WORKS_HP_SUB_TITLE}
