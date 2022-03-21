@@ -76,7 +76,7 @@ export const SERVICES_PRICE =
 export const WORKS_SMARTPHONE_SUB_TITLE = 'スマホアプリ開発';
 export const WORKS_AHA_EXPERIENCE_APP = '脳トレ - アハ!!体験 -';
 export const WORKS_AHA_EXPERIENCE_APP_HP =
-    'https://vercel.com/nowvilla-physi/aha-experience-hp';
+    'https://aha-experience-hp.vercel.app/';
 export const WORKS_AHA_CHALLENGE_APP = '古代エジプトからの挑戦状';
 export const WORKS_AHA_CHALLENGE_APP_HP =
     'https://challenge-from-ancient-egypt-hp.vercel.app/';
