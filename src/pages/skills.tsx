@@ -29,6 +29,45 @@ const Skills: React.VFC = () => {
             />
             <h2 className={styles.skills__title} />
             <h3 className={styles['skills__sub-title']}>
+                {Strings.SKILL_SMART_PHONE_APP_TITLE}
+            </h3>
+            <SkillItem
+                description={Strings.SKILL_FLUTTER_DESCRIPTION}
+                hasExperienced={false}
+                imageUrl={flutterIcon}
+                label={Strings.SKILL_FLUTTER_LABEL}
+            />
+            <SkillItem
+                description={Strings.SKILL_DART_DESCRIPTION}
+                hasExperienced={false}
+                imageUrl={dartIcon}
+                label={Strings.SKILL_DART_LABEL}
+            />
+            <SkillItem
+                description={Strings.SKILL_ANDROID_DESCRIPTION}
+                hasExperienced
+                imageUrl={androidIcon}
+                label={Strings.SKILL_ANDROID_LABEL}
+            />
+            <SkillItem
+                description={Strings.SKILL_KOTLIN_DESCRIPTION}
+                hasExperienced
+                imageUrl={kotlinIcon}
+                label={Strings.SKILL_KOTLIN_LABEL}
+            />
+            <SkillItem
+                description={Strings.SKILL_IOS_DESCRIPTION}
+                hasExperienced
+                imageUrl={iosIcon}
+                label={Strings.SKILL_IOS_LABEL}
+            />
+            <SkillItem
+                description={Strings.SKILL_SWIFT_DESCRIPTION}
+                hasExperienced
+                imageUrl={swiftIcon}
+                label={Strings.SKILL_SWIFT_LABEL}
+            />
+            <h3 className={styles['skills__sub-title']}>
                 {Strings.SKILL_FRONTEND_TITLE}
             </h3>
             <SkillItem
@@ -87,45 +126,6 @@ const Skills: React.VFC = () => {
                 hasExperienced={false}
                 imageUrl={javaIcon}
                 label={Strings.SKILL_JAVA_LABEL}
-            />
-            <h3 className={styles['skills__sub-title']}>
-                {Strings.SKILL_SMART_PHONE_APP_TITLE}
-            </h3>
-            <SkillItem
-                description={Strings.SKILL_FLUTTER_DESCRIPTION}
-                hasExperienced={false}
-                imageUrl={flutterIcon}
-                label={Strings.SKILL_FLUTTER_LABEL}
-            />
-            <SkillItem
-                description={Strings.SKILL_DART_DESCRIPTION}
-                hasExperienced={false}
-                imageUrl={dartIcon}
-                label={Strings.SKILL_DART_LABEL}
-            />
-            <SkillItem
-                description={Strings.SKILL_ANDROID_DESCRIPTION}
-                hasExperienced
-                imageUrl={androidIcon}
-                label={Strings.SKILL_ANDROID_LABEL}
-            />
-            <SkillItem
-                description={Strings.SKILL_KOTLIN_DESCRIPTION}
-                hasExperienced
-                imageUrl={kotlinIcon}
-                label={Strings.SKILL_KOTLIN_LABEL}
-            />
-            <SkillItem
-                description={Strings.SKILL_IOS_DESCRIPTION}
-                hasExperienced
-                imageUrl={iosIcon}
-                label={Strings.SKILL_IOS_LABEL}
-            />
-            <SkillItem
-                description={Strings.SKILL_SWIFT_DESCRIPTION}
-                hasExperienced
-                imageUrl={swiftIcon}
-                label={Strings.SKILL_SWIFT_LABEL}
             />
             <h3 className={styles['skills__sub-title']}>
                 {Strings.SKILL_OTHER_TITLE}
